@@ -10,6 +10,7 @@ import {
 import Stack from "@mui/material/Stack";
 import Typography from "@mui/material/Typography";
 import Box from "@mui/material/Box";
+import MuiBtn from "@mui/material/Button";
 import { Button } from "../button";
 import tron_hand from "../../assets/images/hero/tron_hand.png";
 // import Container from "@mui/material/Container";
@@ -42,12 +43,20 @@ export const Hero = () => {
           flexDirection: "row",
         }}
       >
-        <Button bgColor="#ccc" color="#1c1c1c" border="none">
+        <Button bgColor="primary.main" color="#ccc" border="none">
           Launch <Telegram color="inherit" />
         </Button>
-        <Button bgColor="transparent" color="#ccc" border="1px solid #ccc">
+        <MuiBtn
+          variant="outlined"
+          color="primary"
+          sx={{
+            borderRadius: "20px",
+            paddingLeft: "2rem",
+            paddingRight: "2rem",
+          }}
+        >
           Tutorial
-        </Button>
+        </MuiBtn>
       </Stack>
 
       <Box

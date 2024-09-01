@@ -16,6 +16,7 @@ export const Button = ({ border, bgColor, color, children, display }) => {
         paddingLeft: "2rem",
         paddingRight: "2rem",
         display: display,
+        fontWeight: 600,
       }}
     >
       {children}

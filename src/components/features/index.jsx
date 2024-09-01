@@ -30,7 +30,7 @@ export const Features = () => {
             }
           )}
           <div style={{ width: "max-content", marginLeft: "1rem" }}>
-            <Button bgColor="secondary.main" color="#1c1c1c" border="none">
+            <Button bgColor="primary.main" color="#ccc" border="none">
               Begin Here
             </Button>
           </div>

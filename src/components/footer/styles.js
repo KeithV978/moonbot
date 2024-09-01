@@ -1,7 +1,7 @@
 import { styled } from "@mui/material";
 
 export const Wrapper = styled("section")(({ theme }) => ({
-  backgroundColor: `${[theme.palette.secondary.main]}`,
+  backgroundColor: `${[theme.palette.primary.main]}`,
   color: "#1c1c1c",
   padding: "1rem",
   textAlign: "center",
