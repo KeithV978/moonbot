@@ -17,8 +17,8 @@ function App() {
         <Hero />
         <Features />
         <ConnectWallet />
-        <Footer />
       </main>
+      <Footer />
       <ScrollToTop />
     </Container>
   );
