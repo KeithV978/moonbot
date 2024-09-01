@@ -15,7 +15,7 @@ import { Button } from "../button";
 import tron_hand from "../../assets/images/hero/tron_hand.png";
 // import Container from "@mui/material/Container";
 import {
-  NetworkTron,
+  // NetworkTron,
   TokenSUN,
   TokenUSDC,
   TokenUSDD,
@@ -106,9 +106,9 @@ export const Hero = () => {
           <li>
             <TokenUSDD /> USDD
           </li>
-          <li>
+          {/* <li>
             <NetworkTron />
-          </li>
+          </li> */}
           <li>
             <TokenSUN />
             SUN

@@ -22,7 +22,7 @@ export const Maintext = styled(Typography)(({ theme }) => ({
   // letterSpacing: ".2rem",
   textWrap: "wrap",
   [theme.breakpoints.up("sm")]: {
-    letterSpacing: ".6rem",
+    letterSpacing: ".5rem",
   },
 }));
 export const SuperText = styled(Typography)(({ theme }) => ({
