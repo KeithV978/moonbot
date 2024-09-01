@@ -13,7 +13,7 @@ export const ConnectWallet = () => {
         Launch Bot <WalletWalletConnect width="50px" height="50px" />{" "}
       </Title>
       <ConnectButtonWrapper>
-        <Link href={BOT_LINK}>
+        <Link href={BOT_LINK} sx={{textDecoration: 'none'}}>
           <Button bgColor="#ccc" color="#1c1c1c" border="none">
             Launch <LinkRounded />
           </Button>
