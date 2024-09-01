@@ -20,6 +20,7 @@ import {
   TokenUSDD,
   TokenUSDT,
 } from "@web3icons/react";
+import Telegram from "@mui/icons-material/Telegram";
 
 export const Hero = () => {
   return (
@@ -35,14 +36,14 @@ export const Hero = () => {
       <Stack
         sx={{
           gap: 2,
-          marginTop: "2rem",
+          marginTop: { sm: "2rem", xs: "1rem" },
           justifyContent: "center",
           alignItems: "center",
           flexDirection: "row",
         }}
       >
         <Button bgColor="#ccc" color="#1c1c1c" border="none">
-          Launch
+          Launch <Telegram color="inherit" />
         </Button>
         <Button bgColor="transparent" color="#ccc" border="1px solid #ccc">
           Tutorial
@@ -56,12 +57,12 @@ export const Hero = () => {
           overflow: "hidden",
           // border: "1px solid red",
           "&::after": {
-            // content: "''",
+            content: "''",
             position: "absolute",
             left: "50%",
             right: "50%",
             transform: "translate(-50%, -50%)",
-            bottom: "-18vh",
+            bottom: "-15vh",
             width: "25%",
             height: "20vh",
             backgroundColor: "primary.main",

@@ -1,10 +1,10 @@
 import React from "react";
 import { Contents, FeaturesList, Wrapper } from "./styles";
+import { Button } from "../button";
 import ListItem from "@mui/material/ListItem";
 import Typography from "@mui/material/Typography";
 import ListItemIcon from "@mui/material/ListItemIcon";
 import Check from "@mui/icons-material/DoneAllRounded";
-import { Button } from "../button";
 
 export const Features = () => {
   return (
@@ -29,8 +29,8 @@ export const Features = () => {
               );
             }
           )}
-          <div style={{ width: "fit-content", marginLeft: "1rem" }}>
-            <Button bgColor="tertiary.main" color="#1c1c1c" border="none">
+          <div style={{ width: "max-content", marginLeft: "1rem" }}>
+            <Button bgColor="secondary.main" color="#1c1c1c" border="none">
               Begin Here
             </Button>
           </div>

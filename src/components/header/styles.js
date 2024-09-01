@@ -12,7 +12,7 @@ export const Wrapper = styled("header")(({ theme }) => ({
   // top: "100px",
 }));
 export const Img = styled("img")(({ theme }) => ({
-  width: "25px",
+  width: "30px",
   marginRight: "5px",
   [theme.breakpoints.up("sm")]: {
     width: "50px",

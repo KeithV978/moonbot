@@ -1,40 +1,39 @@
 import { styled } from "@mui/material";
-import bgImage from "../../assets/images/features/bgImage.jpg";
+import bgImage from "../../assets/images/features/bgImage2.jpg";
+import Typography from "@mui/material/Typography";
 
 export const Wrapper = styled("section")(({ theme }) => ({
-  margin: "2rem 1rem",
+  margin: "5rem 1rem",
   textAlign: "center",
-  padding: "2rem 1rem",
+  padding: "4rem 2rem",
   backgroundImage: `url('${bgImage}')`,
   backgroundSize: "cover",
   backgroundRepeat: "no-repeat",
   borderRadius: "25px",
   display: "flex",
   flexDirection: "column",
-  alignItems: "start",
+  alignItems: "center",
+  //   height: "50vh",
   [theme.breakpoints.up("sm")]: {
-    padding: "4rem 1rem",
-    margin: "5rem 1rem",
     backgroundSize: "100%",
-    alignItems: "center",
     borderRadius: "50px",
   },
 }));
-export const FeaturesList = styled("div")(({ theme }) => ({
+export const Title = styled(Typography)(({ theme }) => ({
+  display: "flex",
+  flexDirection: "column",
+  alignItems: "center",
+}));
+export const ConnectButtonWrapper = styled("div")(({ theme }) => ({
   backgroundColor: "#00000070",
   color: "#fff",
   borderRadius: "12px",
   padding: "1rem",
   marginTop: "1rem",
+  //   minWidth: "3px",
+  width: "100%",
   [theme.breakpoints.up("sm")]: {
     borderRadius: "20px",
-  },
-}));
-export const Contents = styled("div")(({ theme }) => ({
-  maxWidth: "400px",
-  textAlign: "left",
-  [theme.breakpoints.up("sm")]: {
-    // textAlign: "center",
-    margin: "0 auto",
+    maxWidth: "370px",
   },
 }));

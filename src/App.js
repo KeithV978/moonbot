@@ -5,6 +5,7 @@ import { Features } from "./components/features";
 import "./App.css";
 import "./assets/fonts/index.css";
 import { Footer } from "./components/footer";
+import { ConnectWallet } from "./components/connect";
 
 function App() {
   document.title = "Welcome to MoonBot";
@@ -14,7 +15,7 @@ function App() {
         <Header />
         <Hero />
         <Features />
-        <Features />
+        <ConnectWallet />
         <Footer />
       </main>
     </Container>

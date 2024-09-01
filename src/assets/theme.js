@@ -6,37 +6,27 @@ let theme = createTheme({
       main: "#7303e1",
     },
     secondary: {
-      main: "#e10403",
+      main: "#71e103",
     },
     tertiary: {
-      main: "#71e103",
+      main: "#e10403",
     },
     background: "#01020e",
   },
   typography: {
-    fontFamily:
-      "Roboto, Roboto-medium, Jersey15Charted, SUSE, LilitaOne, Open-Sans",
+    fontFamily: "Roboto, SUSE, LilitaOne, Open-Sans",
 
     h2: {
       fontFamily: '"LilitaOne", "Open-Sans"',
       fontWeight: 700,
     },
     h4: {
-      fontFamily: '"SUSE", "Open-Sans"',
+      fontFamily: '"LilitaOne", "Open-Sans"',
       fontWeight: 700,
     },
     h5: {
       fontFamily: '"SUSE", "Open-Sans"',
       fontWeight: 700,
-    },
-    h6: {
-      fontFamily: "Roboto",
-    },
-    body1: {
-      fontFamily: '"Roboto"',
-    },
-    body2: {
-      fontFamily: '"Roboto"',
     },
   },
   breakpoints: {
