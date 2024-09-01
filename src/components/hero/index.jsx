@@ -10,6 +10,7 @@ import {
 import Stack from "@mui/material/Stack";
 import Typography from "@mui/material/Typography";
 import Box from "@mui/material/Box";
+import Link from "@mui/material/Link";
 import MuiBtn from "@mui/material/Button";
 import { Button } from "../button";
 import tron_hand from "../../assets/images/hero/tron_hand.png";
@@ -22,6 +23,7 @@ import {
   TokenUSDT,
 } from "@web3icons/react";
 import Telegram from "@mui/icons-material/Telegram";
+import { BOT_LINK } from "../../utils/links";
 
 export const Hero = () => {
   return (
@@ -43,9 +45,11 @@ export const Hero = () => {
           flexDirection: "row",
         }}
       >
-        <Button bgColor="primary.main" color="#ccc" border="none">
-          Launch <Telegram color="inherit" />
-        </Button>
+        <Link href={BOT_LINK}>
+          <Button bgColor="primary.main" color="#ccc" border="none">
+            Launch <Telegram color="inherit" />
+          </Button>
+        </Link>
         <MuiBtn
           variant="outlined"
           color="primary"
