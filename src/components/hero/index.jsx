@@ -9,11 +9,10 @@ import {
 } from "./styles";
 import Stack from "@mui/material/Stack";
 import Typography from "@mui/material/Typography";
-// import Box from "@mui/material/Box";
+import Box from "@mui/material/Box";
 import { Button } from "../button";
 import tron_hand from "../../assets/images/hero/tron_hand.png";
 // import Container from "@mui/material/Container";
-import Box from "@mui/material/Box";
 import {
   NetworkTron,
   TokenSUN,
@@ -29,8 +28,8 @@ export const Hero = () => {
         <SuperText>The Most Efficient</SuperText>
         <Maintext variant="h2">Trading bot on TRON</Maintext>
       </TextWrapper>
-      <Typography variant="body1" letterSpacing=".1rem" color="#767676">
-        <i>Buy/Sell/Snipe/Scan any TRC token directly from Telegram!</i>
+      <Typography variant="body2" letterSpacing=".1rem" color="#767676">
+        Buy/Sell/Snipe/Scan any TRC token directly from Telegram!
       </Typography>
 
       <Stack
@@ -57,7 +56,7 @@ export const Hero = () => {
           overflow: "hidden",
           // border: "1px solid red",
           "&::after": {
-            content: "''",
+            // content: "''",
             position: "absolute",
             left: "50%",
             right: "50%",
@@ -75,7 +74,13 @@ export const Hero = () => {
         <Img src={tron_hand} alt="screenshot" />
       </Box>
 
-      <div style={{ padding: "5rem 2rem 2rem" }}>
+      <Box
+        sx={{
+          padding: { sm: "5rem 2rem 2rem", xs: "3rem 0" },
+          maxWidth: "700px",
+          margin: "0 auto",
+        }}
+      >
         <Typography
           variant="body2"
           textTransform="uppercase"
@@ -102,7 +107,7 @@ export const Hero = () => {
             <TokenUSDC /> USDC
           </li>
         </Network>
-      </div>
+      </Box>
     </Wrapper>
   );
 };

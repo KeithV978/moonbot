@@ -8,6 +8,8 @@ export const Wrapper = styled("header")(({ theme }) => ({
   alignItems: "center",
   marginBottom: "2rem",
   padding: "1rem 0",
+  position: "sticky",
+  // top: "100px",
 }));
 export const Img = styled("img")(({ theme }) => ({
   width: "25px",
@@ -17,14 +19,17 @@ export const Img = styled("img")(({ theme }) => ({
   },
 }));
 export const Ul = styled("div")(({ theme }) => ({
-  display: "flex",
-  flexDirection: "row",
-  // gap: 10,
-  alignItems: "center",
-  minWidth: "220px",
-  justifyContent: "space-between",
-  listStyle: "none",
-  "& li": {
-    color: "#fff",
+  display: "none",
+  [theme.breakpoints.up("sm")]: {
+    display: "flex",
+    flexDirection: "row",
+    alignItems: "center",
+    justifyContent: "space-between",
+    minWidth: "220px",
+    listStyle: "none",
+    // gap: 10,
+    "& li": {
+      color: "#fff",
+    },
   },
 }));

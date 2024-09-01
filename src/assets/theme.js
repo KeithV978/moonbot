@@ -15,31 +15,28 @@ let theme = createTheme({
   },
   typography: {
     fontFamily:
-      "Jersey15Charted, SUSE, Roboto, LilitaOne, Roboto-medium, sans-serif",
+      "Roboto, Roboto-medium, Jersey15Charted, SUSE, LilitaOne, Open-Sans",
 
     h2: {
-      fontFamily: '"SUSE", "Open-Sans"',
-      color: "#ccc",
+      fontFamily: '"LilitaOne", "Open-Sans"',
       fontWeight: 700,
     },
-
+    h4: {
+      fontFamily: '"SUSE", "Open-Sans"',
+      fontWeight: 700,
+    },
     h5: {
-      fontFamily: '"Jersey15Charted", "Open-Sans"',
-
-      color: "#ccc",
+      fontFamily: '"SUSE", "Open-Sans"',
       fontWeight: 700,
     },
     h6: {
-      fontFamily: "LilitaOne",
-      color: "#ccc",
+      fontFamily: "Roboto",
     },
     body1: {
-      fontFamily: '"LilitaOne"',
-      color: "#ccc",
+      fontFamily: '"Roboto"',
     },
     body2: {
-      fontFamily: '"LilitaOne"',
-      color: "#ccc",
+      fontFamily: '"Roboto"',
     },
   },
   breakpoints: {

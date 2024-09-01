@@ -2,10 +2,12 @@ import { Img, Ul, Wrapper } from "./styles";
 import { Button } from "../button";
 import logo from "../../assets/images/logo/logo.png";
 import Stack from "@mui/material/Stack";
+import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
 import Telegram from "@mui/icons-material/Telegram";
 import X from "@mui/icons-material/X";
 import BookRounded from "@mui/icons-material/MenuBookOutlined";
+import { Sling as Hamburger } from "hamburger-react";
 
 export const Header = () => {
   return (
@@ -16,7 +18,12 @@ export const Header = () => {
           MoonBot
         </Typography>
       </Stack>
-      <Button bgColor="transparent" color="#ccc" border="none">
+      <Button
+        bgColor="transparent"
+        color="#ccc"
+        border="none"
+        display={{ sm: "flex", xs: "none" }}
+      >
         <BookRounded sx={{ marginRight: "5px" }} /> Documentation
       </Button>
       <Ul>
@@ -32,6 +39,9 @@ export const Header = () => {
           </Button>
         </li>
       </Ul>
+      <Box sx={{ display: { sm: "none", xs: "block" } }}>
+        <Hamburger />
+      </Box>
     </Wrapper>
   );
 };
