@@ -15,7 +15,7 @@ export const MobileNav = ({ menuOpen, toggleDrawer }) => {
   return (
     <Drawer anchor="left" open={menuOpen} onClose={() => toggleDrawer(false)}>
       <Box
-        sx={{ width: 250, height: "100vh", backgroundColor: "secondary.main" }}
+        sx={{ width: 250, height: "100vh", backgroundColor: "primary.main" }}
         role="presentation"
         onClick={() => toggleDrawer(!menuOpen)}
         onKeyDown={() => toggleDrawer(!menuOpen)}
