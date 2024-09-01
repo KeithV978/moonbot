@@ -9,7 +9,9 @@ export const Wrapper = styled("header")(({ theme }) => ({
   marginBottom: "2rem",
   padding: "1rem 0",
   position: "sticky",
-  // top: "100px",
+  top: "0px",
+  backgroundColor: "#01020e",
+  zIndex: 1000,
 }));
 export const Img = styled("img")(({ theme }) => ({
   width: "30px",

@@ -24,9 +24,9 @@ import Telegram from "@mui/icons-material/Telegram";
 
 export const Hero = () => {
   return (
-    <Wrapper>
+    <Wrapper id="hero">
       <TextWrapper>
-        <SuperText>The Most Efficient</SuperText>
+        <SuperText>The most efficient</SuperText>
         <Maintext variant="h2">Trading bot on TRON</Maintext>
       </TextWrapper>
       <Typography variant="body2" letterSpacing=".1rem" color="#767676">

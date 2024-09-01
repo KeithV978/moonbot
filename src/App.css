@@ -1,8 +1,12 @@
+* {
+  transition: all ease-in 0.3s;
+}
 body {
   background-color: #01020e;
   color: #ccc;
   max-width: 1524px;
   margin: 0 auto;
+  scroll-behavior: smooth;
 }
 a {
   text-decoration: none;

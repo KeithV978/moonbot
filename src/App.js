@@ -6,6 +6,7 @@ import "./App.css";
 import "./assets/fonts/index.css";
 import { Footer } from "./components/footer";
 import { ConnectWallet } from "./components/connect";
+import ScrollToTop from "./components/scrollToTop";
 
 function App() {
   document.title = "Welcome to MoonBot";
@@ -18,6 +19,7 @@ function App() {
         <ConnectWallet />
         <Footer />
       </main>
+      <ScrollToTop />
     </Container>
   );
 }
