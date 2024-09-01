@@ -30,7 +30,6 @@ export const Footer = () => {
         </IconButton>
         <IconButton sx={{ backgroundColor: "#00000070" }}>
           <Instagram sx={{ color: "#ccc" }} />
-          <Instagram sx={{ color: "#ccc" }} />
         </IconButton>
       </Stack>
       <Box sx={{ borderTop: { sm: "none", xs: "1px solid #1c1c1c" } }}>
